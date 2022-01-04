@@ -1,0 +1,8 @@
+article{
+    display: inline-block;
+    border: 1px solid black;
+    margin: 1em;
+    width: 400px;
+    height: 200px;
+    padding-left: 40px;
+}
