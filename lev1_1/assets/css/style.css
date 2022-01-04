@@ -1,0 +1,22 @@
+
+p{
+    background: #000000;
+    color: white;
+    width: 400px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+}
+
+div:nth-of-type(2){
+    background: no-repeat url('https://i.picsum.photos/id/556/200/200.jpg?hmac=5uOJ4fW7ElE2P5NfHlvz2zx4d99Ts2-lxy8tucygHLc') center/cover;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    display: none;
+}
+
+div:hover + div{
+    display: block;
+}
