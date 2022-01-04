@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: no-repeat url('https://i.picsum.photos/id/155/200/200.jpg?hmac=D_Tf9XAIteS9U6InmFX2j3DXYkvhlEOOkGGiWuMwU9Q') center/cover;
+    height: 80vh;
+}
+
+nav{
+    height: 10vh;
+    background-color: black;
+}
+
+ul{
+    text-align: right;
+    margin-right: 100px;
+    
+}
+
+li{
+    display: inline-block;
+    width: 100px;
+    height: 5vh;
+    text-align: center; 
+    margin-top: 20px; 
+    margin-right: 40px;
+    
+}
+
+a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
